@@ -1,2 +1,4 @@
 config
 youtubeapi.json
+.idea
+__pycache__

@@ -11,10 +11,10 @@ def get_req():
 
 def test_tube(query: str):
     api_url = "https://www.googleapis.com/youtube/v3/search"
-    api_key = 'AIzaSyArLUetwsI5eKwExxsl0W9ma_CYLd136NA'
+    google_api_key = 'AIzaSyArLUetwsI5eKwExxsl0W9ma_CYLd136NA'
     params = [
         f'q={query}',
-        f'key={api_key}',
+        f'key={google_api_key}',
         'part=snippet',
         'type=video',
         'maxResults=10'
