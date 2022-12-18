@@ -27,4 +27,4 @@ def test_tube(query: str):
     return response.text
 
 
-print(test_tube('angular'))
+# print(test_tube('angular'))
